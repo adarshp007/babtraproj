@@ -1,0 +1,65 @@
+body{
+    background-image: url("image/bg.jpg");
+    background-size: cover;
+    padding-top: 20px;
+}
+.cover{
+    border: 3px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    width: 83em;
+    height: 40em;
+    top: 50px;
+    
+    background-color:rgba(10, 0, 0, 0.6);
+}
+.box{
+    width: 30em;
+    height: 39em;
+    /* margin-left: auto;
+    margin-right: auto; */
+    
+    margin: 0 auto;
+    background-color:rgba(5,3,2,.5);
+    border: 2px solid black;
+    /* box-shadow:0px 15px 10px 20px rgba(2, 0, 0,.8) */
+    box-shadow: 12px 0 15px -4px rgba(3,0, 0, 0.8), -12px 0 8px -4px rgba(3, 0,0, 0.8);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.log{
+    display: block;
+    width: 25em;
+    border: 5px solid whitesmoke;
+    margin: 0 auto;
+    background-color:rgba(10,0,0,.5);
+}
+table{
+    width: 100%;
+    
+}
+table td{
+    text-align: center;
+}
+table td input[type="email"],input[type="password"]{
+width: 85%;
+height: 30px;
+text-align: center;
+background-color: rgba(10, 0, 0, 0.6);
+color: white;
+font-weight: 600;
+
+}
+input[type="submit"]{
+    width: 60%;
+    height: 30px;
+    font-weight: 800;
+}
+::placeholder{
+    color: green;
+    font-weight: 700;
+}
